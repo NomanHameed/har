@@ -21,26 +21,28 @@
                 <!-- Start Navigation List -->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="active" href="index.html">Home</a>
+                        <a class="{{ (strpos(Route::currentRouteName(), 'home-page') === 0) ? 'active' : '' }}" href="{{ route('home-page') }}">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="{{ route('about-us') }}" class="{{ (strpos(Route::currentRouteName(), 'about-us') === 0) ? 'active' : '' }}"
+                        >About Us</a>
                     </li>
-                    <li>
-                        <a href="service.html">Service</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                        <ul class="dropdown">
-                            <li>
-                                <a href="blog-item.html">Item Page</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a>
+{{--                    <li>--}}
+{{--                        <a href="#">Service</a>--}}
+{{--                    </li>--}}
+{{--                    <li>--}}
+{{--                        <a href="#">Portfolio</a>--}}
+{{--                    </li>--}}
+{{--                    <li>--}}
+{{--                        <a href="#">Blog</a>--}}
+{{--                        <ul class="dropdown">--}}
+{{--                            <li>--}}
+{{--                                <a href="blog-item.html">Item Page</a>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+                    <li><a class="{{ (strpos(Route::currentRouteName(), 'contact-us') === 0) ? 'active' : '' }}"
+                           href="{{ route('contact-us') }}">Contact</a>
                     </li>
                 </ul>
                 <!-- End Navigation List -->

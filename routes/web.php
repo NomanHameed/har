@@ -14,9 +14,9 @@ use \App\Http\Controllers\CategoryController;
 |
 */
 
-Route::get('/', function () {
-    return view('client.index');
-});
+Route::get('/', function () { return view('client.index'); })->name('home-page');
+Route::get('/about', function () { return view('client.about');})->name('about-us');
+Route::get('/contact-us', function () { return view('client.contact');})->name('contact-us');
 
 Route::get('/category', function () {
     return view('category');

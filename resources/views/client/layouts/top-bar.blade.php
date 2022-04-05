@@ -8,9 +8,9 @@
                     <div class="col-md-6">
                         <!-- Start Contact Info -->
                         <ul class="contact-details">
-                            <li><a href="#"><i class="fa fa-phone"></i>  +92 41 24 24 111 12</a>
+                            <li><a href="#"><i class="fa fa-phone"></i>  +92 41 24 24 111-12</a>
                             </li>
-                            <li><a href="#"><i class="fa fa-envelope-o"></i> support@sulfur.com</a>
+                            <li><a href="#"><i class="fa fa-envelope-o"></i> info@hartextile.com</a>
                             </li>
                         </ul>
                         <!-- End Contact Info -->
@@ -20,32 +20,32 @@
                         <!-- Start Social Links -->
                         <ul class="social-list">
                             <li>
-                                <a href="#"><i class="fa fa-rss"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-rss"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/hartextile/"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
+{{--                            <li>--}}
+{{--                                <a href="#"><i class="fa fa-google-plus"></i></a>--}}
+{{--                            </li>--}}
                             <li>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCeXUZIccfZMXuDdsJvW4dyw/featured"><i class="fa fa-youtube"></i></a>
                             </li>
-                            <li>
-                                <a href="#"><i class="fa fa-youtube"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-flickr"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-vimeo-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-skype"></i></a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a href="#"><i class="fa fa-linkedin"></i></a>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <a href="#"><i class="fa fa-flickr"></i></a>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <a href="#"><i class="fa fa-vimeo-square"></i></a>--}}
+{{--                            </li>--}}
+{{--                            <li>--}}
+{{--                                <a href="#"><i class="fa fa-skype"></i></a>--}}
+{{--                            </li>--}}
                         </ul>
                         <!-- End Social Links -->
                     </div><!-- .col-md-6 -->
