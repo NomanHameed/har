@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="about-img">
-                        <img src="{{ asset('images/corporate1.jpg') }}" class="img-responsive" alt="About images">
+                        <img src="{{ asset('images/ab.jpg') }}" class="img-responsive" alt="About images">
                         <div class="head-text">
                             <p>I want to create a legacy for generations to come in the field of Textiles.</p>
                             <span>CEO, Haji Abdul Jabbar</span>
